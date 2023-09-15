@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div{
+        font-family: Arial;
+        color: white;
+      }
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(106, 76, 146);
+        height: 60px;
+        padding-left: 15px;
+        padding-right: 10px;
+      }
+      .middle-section{
+        flex: 1;
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      .search-bar{
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 20px;
+        border: none;
+      }
+      .right-section{
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="left-section" style="font-weight: bold;">Home</div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="right-section">
+        Download
+      </div>
+    </div>
+  </body>
+</html>
